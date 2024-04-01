@@ -15,4 +15,8 @@
 
 ## Jupyter Notebooks
 
+## Leetcode Drytests
+
+- [Questions](Leetcode)
+
 > More will be added later
