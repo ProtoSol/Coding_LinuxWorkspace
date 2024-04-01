@@ -21,13 +21,13 @@
 # On the fourth turn, ans[3] += 1 (because there is only one candy left), and the final array is [1,2,3,1].
 
 class Solution:
-    def distributeCandies(self, candies: int, num_people: int) -> List[int]:
+    def distributeCandies(self, candies: int, num_people: int) -> list:
         distribution = [0] * num_people
         
         if num_people <= 0:
             return []
         
-        if num_people == 1:
+        if num_people == 1: 
             distribution[0] = candies
             return distribution
         
@@ -47,3 +47,10 @@ class Solution:
                 candies_left = 0
         
         return distribution
+
+if __name__ == "__main__":
+    solution = Solution()
+    candies = 10
+    num_people = 3
+    print("Distributing", candies, "candies among", num_people, "people:")
+    print(solution.distributeCandies(candies, num_people))
