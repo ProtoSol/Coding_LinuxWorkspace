@@ -1,4 +1,4 @@
-# Learning to Code (BTech)
+# Learning to Code
 
 > Collection of the code files, I create on my Linux Workspace
 
