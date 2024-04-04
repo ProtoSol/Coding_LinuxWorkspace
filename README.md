@@ -19,4 +19,8 @@
 
 - [Questions](Leetcode)
 
+## Technical Training Classes
+
+- [Codes](Technical_Training)
+
 > More will be added later
