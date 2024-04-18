@@ -1,0 +1,14 @@
+digraph {
+	A
+	B
+	C
+	D
+	A -> C [label="0/0"]
+	A -> B [label="1/0"]
+	B -> A [label="0/0"]
+	B -> D [label="1/0"]
+	C -> B [label="0/1"]
+	C -> A [label="1/1"]
+	D -> C [label="0/0"]
+	D -> C [label="1/0"]
+}

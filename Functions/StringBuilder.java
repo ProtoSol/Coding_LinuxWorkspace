@@ -1,7 +1,5 @@
 public class StringBuilder {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        // StringBuffer sbu = new StringBuffer();
 
         // sbu.append("Hello There");
         // System.out.println(sbu.capacity());
