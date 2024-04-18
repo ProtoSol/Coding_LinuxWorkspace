@@ -8,4 +8,9 @@
     - Game (Skillrisers)
     - Build Chat Applications (Skillrisers)
 
+
+## 19 April 2024
+
+- Make the Project for Submission
+    - Chat App or Game Development using Java
 > Online Mode 

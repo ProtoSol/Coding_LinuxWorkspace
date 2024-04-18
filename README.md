@@ -8,6 +8,8 @@
 - [Sorting Algorithm](Sorting)
 - [Searching Algorithm](Searching)
 - [Recustion](Recursion)
+- [Arrays](Arrays)
+- [Functions](Functions)
 
 ## Python
 
