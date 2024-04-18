@@ -1,4 +1,4 @@
-package technicalTraining;
+package Technical_Training;
 
 class patternPrinting {
     public static void main(String[] args) {

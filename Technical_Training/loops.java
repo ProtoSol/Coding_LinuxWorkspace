@@ -1,4 +1,4 @@
-package technicalTraining;
+package Technical_Training;
 
 public class loops {
     public static void main(String[] args) {

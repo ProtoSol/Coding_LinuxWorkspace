@@ -1,4 +1,3 @@
-package codingQues;
 import java.util.Arrays;
 
 public class Q2149Array {

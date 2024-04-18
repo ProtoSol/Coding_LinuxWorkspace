@@ -1,5 +1,4 @@
-package technicalTraining;
-
+package Technical_Training;
 public class Flipping {
     public static void main(String[] args) {
         int num = 32145;

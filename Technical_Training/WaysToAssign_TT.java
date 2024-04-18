@@ -1,3 +1,5 @@
+package Technical_Training;
+
 //Pascal Case is Used for writing convention.
 
 public class WaysToAssign_TT {
