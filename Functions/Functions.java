@@ -15,7 +15,7 @@ public class Functions {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        
+        sc.close();
         // We made an object to call methods from the static function.
         Functions fc = new Functions();
         fc.addSum(a, b);

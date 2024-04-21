@@ -46,7 +46,7 @@ public class GroceryBillingSystem {
                 }
             }
         } while (!input.equalsIgnoreCase("done"));
-
+        scanner.close();
         double totalBill = 0;
         for (int i = 0; i < purchasedItemCount; i++) {
             double price = groceryItems.get(purchasedItems[i]);

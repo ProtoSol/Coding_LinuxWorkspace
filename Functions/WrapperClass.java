@@ -4,12 +4,12 @@ import java.util.LinkedList;
 public class WrapperClass {
     public static void main(String[] args) {
         int x = 10;
-        Integer y = 10;
+        // Integer y = 10;
         // Here the class Integer class is an wrapper class.
 
         // Another example being 
         LinkedList<Integer> x1 = new LinkedList<>();
-        int y2 = 20;
+        // int y2 = 20;
         x1.add(x); // Auto Boxing
 
         // x1.add(new Integer(x)); // Manual Boxing

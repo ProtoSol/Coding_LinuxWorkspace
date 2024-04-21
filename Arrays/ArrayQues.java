@@ -37,7 +37,7 @@ public class ArrayQues {
         // We should never say the answer the directly
         // We should propose both bruteforce and optimized answers
 
-        int[] arr = new int[5];
+        // int[] arr = new int[5];
 
 
     }

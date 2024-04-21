@@ -52,6 +52,7 @@ public class ArraysAndArrayList {
         for (int i = 0; i < ros.length; i++) {
             ros[i] = sc.nextInt();
         }
+        sc.close();
         // Now printing out the values.
         for (int i = 0; i < ros.length; i++) {
             System.out.print(ros[i] + " ");;

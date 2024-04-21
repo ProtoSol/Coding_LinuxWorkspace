@@ -2,7 +2,7 @@ package Technical_Training;
 
 public class loops {
     public static void main(String[] args) {
-        int count = 0;
+        // int count = 0;
         int num = 6;
 
         // // Bruteforce

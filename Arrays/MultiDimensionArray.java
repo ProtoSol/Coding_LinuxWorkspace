@@ -50,7 +50,7 @@ public class MultiDimensionArray {
                 arr2[i][j] = sc.nextInt();
             }
         }
-        
+        sc.close();
         // Printing the multidimenstion array
 
         // for (int i = 0; i < arr2.length; i++) {
