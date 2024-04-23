@@ -6,7 +6,7 @@
 
 - [Sorting Algorithm](Sorting)
 - [Searching Algorithm](Searching)
-- [Recustion](Recursion)
+- [Recustion and Tree](RecursionAndTree)
 - [Arrays](Arrays)
 - [Functions](Functions)
 - [Back Tracking](BackTracking)
@@ -16,6 +16,7 @@
 ## Projects {Working}
 
 - [Simple Slot Machine code Python](Projects/SlotMachine.py)
+- [Student Marksheet](OOPS/StudentMarkSheet.java)
 - [Stock Marcket Web App using Streamlit](Projects/StockPriceWebApp.py)
 
 ## Java-
