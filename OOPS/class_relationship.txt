@@ -1,0 +1,15 @@
+> When two classes wants to talk to each other
+there are only two realtionship
+
+a) IS - a (Inheritance Based) (Parent / Child realtionship)
+
+*Code Reusability
+* Polymorphism (one thing several forms)
+    - Overriding
+    - Overloading
+
+b) Has - a (Object create and use it) - Usage based realtionship
+
+// The object of Parent class should not be initiated as It will cause confusion and Becomes useless for Developers.
+
+// we use abstract class for the Parent class instead.

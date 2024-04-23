@@ -9,6 +9,7 @@
 - [Recustion](Recursion)
 - [Arrays](Arrays)
 - [Functions](Functions)
+- [Back Tracking](BackTracking)
 
 > Both Java and Python Codes are merged together.
 
@@ -36,5 +37,6 @@
 ## Technical Training Classes
 
 - [Codes](Technical_Training)
+- [Certificate](Certificates)
 
 > More will be added later
