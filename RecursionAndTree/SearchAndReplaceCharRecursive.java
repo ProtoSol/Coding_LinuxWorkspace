@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 public class SearchAndReplaceCharRecursive {
     static String searchAndReplaceCharRecursive(String str, char key, char replace){

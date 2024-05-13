@@ -1,10 +1,12 @@
+package RecursionAndTree;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Permutation {
     public class Main {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = {1, 2, 3};
         List<List<Integer>> permutations = solution.permute(nums);

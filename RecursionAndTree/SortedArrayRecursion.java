@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 public class SortedArrayRecursion {
     public static void main(String[] args) {

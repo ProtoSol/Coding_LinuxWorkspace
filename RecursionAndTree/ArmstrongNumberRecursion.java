@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 public class ArmstrongNumberRecursion {
     public static void main(String[] args) {

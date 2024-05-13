@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 public class SearchAndReplaceWordRecursion {
     private static String searchAndReplaceWordRecursive(String sentence, String replace, String replaceWith){

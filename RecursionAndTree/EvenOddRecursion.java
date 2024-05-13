@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 import java.util.Arrays;
 

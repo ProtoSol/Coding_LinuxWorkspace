@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndTree;
 
 public class ReverseStringRecursion {
     static String reverseString(String str){
