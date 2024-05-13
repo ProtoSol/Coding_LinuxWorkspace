@@ -1,7 +1,5 @@
 package Searching;
 
-import javax.sound.midi.Track;
-
 public class BinarySeach {
 
     // This is used for a sorted array. [Ascending or descending]
