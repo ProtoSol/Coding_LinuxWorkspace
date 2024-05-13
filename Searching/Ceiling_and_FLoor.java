@@ -12,7 +12,15 @@ public class Ceiling_and_FLoor {
         System.out.println("Ceiling value for the target "+ target + " is: " + ceiling(arr,target));
     }
 
+    // The case comes out greater than largest in the ceil, and taget comes out lower than smallest in floor.
+    // we will add edge case.
+
     static int floor(int[] arr, int target) {
+
+        if (target < arr[0]) {
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length - 1;
 
@@ -28,6 +36,11 @@ public class Ceiling_and_FLoor {
     }
 
     static int ceiling(int[] arr, int target) {
+
+        if (target > arr[arr.length - 1]) {
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length - 1;
 
