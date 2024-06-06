@@ -36,3 +36,17 @@ The Data can be stored in the following application ->
 `Other Types of Database ->`![Other Forms of Database](image-3.png)
 
 `RDBMS v/s DBMS ->`![RDBMS v/s DBMS](image-4.png)
+
+`Schema ->` The blueprint or structure of a database, how data is organized into tables, fields, and relationships.
+- Flexibility
+- Data Integrity
+- Logical Structure
+
+`Instance ->` The actual data stored in the database at a particular moment in time, conforming to the database schema.
+- Dynamic Data
+- Transactions
+- Scalability
+
+`Components of Database ->`
+![Components of Database Image](image-5.png)
+
