@@ -13,6 +13,9 @@
 
 > Both Java and Python Codes are merged together.
 
+## Notes
+- [Introduction to DBMS](DBMS)
+
 ## Projects {Working}
 
 - [Simple Slot Machine code Python](Projects/SlotMachine.py)

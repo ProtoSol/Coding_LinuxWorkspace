@@ -31,7 +31,9 @@ The Data can be stored in the following application ->
 ![Ket Milestones in Development of DBMS
 ](image-1.png)
 
-`Document Object Model ->` How the data is stored in the form of HTML.![DOM structure in HTML](image-2.png)
+`Document Object Model ->` How the data is stored in the form of HTML.
+
+![DOM structure in HTML](image-2.png)
 
 `Other Types of Database ->`![Other Forms of Database](image-3.png)
 
@@ -49,4 +51,3 @@ The Data can be stored in the following application ->
 
 `Components of Database ->`
 ![Components of Database Image](image-5.png)
-
