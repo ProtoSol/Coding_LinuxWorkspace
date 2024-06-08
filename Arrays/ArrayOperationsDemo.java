@@ -83,41 +83,42 @@ public class ArrayOperationsDemo {
     public static void main(String[] args) {
         int capacity = 10;
         ArrayOperations obj = new ArrayOperations(capacity);
-        Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.println("1. Insertion ");
-            System.out.println("2. Remove");
-            System.out.println("3. Update");
-            System.out.println("4. Search");
-            System.out.println("5. Print");
-            System.out.println("6. Exit");
-            System.out.println("Enter the Choice");
-            int choice = scanner.nextInt();
-            switch (choice) {
-                case 1:
-                    obj.insert(1, 100);
-                    obj.insert(2, 200);
-                    obj.insert(1, 900);
-                    obj.insert(1, 1000);
-                    break;
+        try (Scanner scanner = new Scanner(System.in)) {
+            while (true) {
+                System.out.println("1. Insertion ");
+                System.out.println("2. Remove");
+                System.out.println("3. Update");
+                System.out.println("4. Search");
+                System.out.println("5. Print");
+                System.out.println("6. Exit");
+                System.out.println("Enter the Choice");
+                int choice = scanner.nextInt();
+                switch (choice) {
+                    case 1:
+                        obj.insert(1, 100);
+                        obj.insert(2, 200);
+                        obj.insert(1, 900);
+                        obj.insert(1, 1000);
+                        break;
 
-                case 2:
-                    obj.remove(900);
-                    break;
+                    case 2:
+                        obj.remove(900);
+                        break;
 
-                case 4:
-                    if (obj.search(1000) == -1) {
-                        System.out.println("Element Not Found");
-                    }
-                    break;
+                    case 4:
+                        if (obj.search(1000) == -1) {
+                            System.out.println("Element Not Found");
+                        }
+                        break;
 
-                case 5:
-                    obj.print();
-                    break;
+                    case 5:
+                        obj.print();
+                        break;
 
-                case 6:
-                    return;
-                    // System.exit(0);
+                    case 6:
+                        return;
+                        // System.exit(0);
+                }
             }
         }
         

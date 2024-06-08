@@ -14,7 +14,7 @@
 > Both Java and Python Codes are merged together.
 
 ## Notes
-- [Introduction to DBMS](DBMS)
+- [Introduction to DBMS / MySQL](DBMS)
 
 ## Projects {Working}
 
