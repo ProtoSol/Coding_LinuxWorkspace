@@ -54,7 +54,41 @@ insert into table_name values (a, b, c);
 ```
 - `It has to be in Order and Number of Columns should be same`
 
+- To delete data from the table
 
+```mysql
+delete from table_name where column_name = value;
+```
+
+- To update data in the table
+
+```mysql
+update table_name set column_name = value where column_name = value;
+```
+
+- Alter table
+
+```mysql
+alter table table_name add column_name datatype;
+```
+
+- Alter Exisitng Column
+
+```mysql
+alter table table_name modify column_name datatype;
+```
+
+- Drop table
+
+```mysql
+drop table table_name;
+```
+
+- Truncate table
+
+```mysql
+truncate table table_name where column_name = value;
+```
 
 ******
 ### Types of Commands ->
@@ -74,3 +108,23 @@ insert into table_name values (a, b, c);
 ![Types of Database](image-7.png)
 
 ******
+
+### Types of Operators ->
+
+![Types of Operator MySQL](image-8.png)
+
+******
+
+> We can perform mathematical equations in MySQL shell\
+```mysql
+select 10 + 5;
+```
+
+> All of the example commands are present in [Queries List](DBMS\Queries_sql.sql)
+
+******
+
+### Different Types of Constraints
+
+![Different types of Constraint in MySQL](image-9.png)
+
