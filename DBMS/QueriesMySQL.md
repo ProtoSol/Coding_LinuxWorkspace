@@ -102,3 +102,9 @@ select column_name as new_column_name from table_name;
 ```mysql
 select column_name from table_name as new_table_name;
 ```
+
+### Substring Selection
+
+```mysql
+select substring(column_name, start, length) from table_name;
+```
