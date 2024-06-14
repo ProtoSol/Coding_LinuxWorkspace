@@ -1,4 +1,4 @@
-public class PatternSearching {
+public class NaivePatternSearching {
     // There are many ways to perform pattern searching
 
         // Naive Pattern Searching Algorithm
