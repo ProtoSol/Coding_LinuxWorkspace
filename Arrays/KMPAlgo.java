@@ -1,6 +1,8 @@
 public class KMPAlgo {
     // This Algo stands for Knuth Morris Pratt Algorithm
     // This method is for Pattern Matching
+    // T(n) = O(m + n)
+    // S(n) = O(n)
 
     public static void main(String[] args) {
         String text = "abxabcabcabz";
