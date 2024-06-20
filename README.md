@@ -6,15 +6,25 @@
 
 - [Sorting Algorithm](Sorting)
 - [Searching Algorithm](Searching)
+    - Contains Linear and Binary Search Question
 - [Recustion and Tree](RecursionAndTree)
+    - Contains Recursion and Tree Questions
 - [Arrays](Arrays)
+    - Contains 1D and 2D Array Questions
+    - String Pattern Matching Questions
+    - Missing Number in Array
+    - Sliding Window Technique
+    - Longest Sub Array Sum, etc
 - [Functions](Functions)
 - [Back Tracking](BackTracking)
+    - Will Revise This Topic Later
+- [OOPS](OOPS)
 
 > Both Java and Python Codes are merged together.
 
 ## Notes
 - [Introduction to DBMS / MySQL](DBMS)
+    - Will Update This later
 
 ## Projects {Working}
 
