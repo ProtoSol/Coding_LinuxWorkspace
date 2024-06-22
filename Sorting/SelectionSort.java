@@ -19,7 +19,7 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {4,5,3,2,1};
+        int[] arr = {4,5,3,2,1,1,2,2};
         selection(arr, arr.length);
         System.out.println(Arrays.toString(arr));
     }
