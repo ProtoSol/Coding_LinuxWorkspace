@@ -1,0 +1,7 @@
+The Algorithms in the Topic of Linked List
+
+    1. 2 Pointer Approach
+        - Fast And Slow Pointer ] Speed
+            - Slow = Slow.next
+            - Fast = Fast.next.next
+            - Psuedo Code present in the LinkedListIntro code

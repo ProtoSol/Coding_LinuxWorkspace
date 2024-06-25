@@ -155,6 +155,22 @@ class LinkedListOperations<T> {
         }
         System.out.println();
     }
+
+    // Example of 2 pointer approach
+    // This is a psudo code for 2 pointer approach
+    void speedPointers() {
+        Node<T> slow = head;
+        Node<T> fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                System.out.println("Loop found");
+                return;
+            }
+        }
+        System.out.println("No Loop found");
+    }
 }
 
 class Customer {
