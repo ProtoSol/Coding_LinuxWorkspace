@@ -18,6 +18,7 @@
 - [Functions](Functions)
 - [Back Tracking](BackTracking)
     - Will Revise This Topic Later
+- [Linked List](Linked_List)
 - [OOPS](OOPS)
 
 > Both Java and Python Codes are merged together.
