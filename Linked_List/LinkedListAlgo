@@ -5,3 +5,8 @@ The Algorithms in the Topic of Linked List
             - Slow = Slow.next
             - Fast = Fast.next.next
             - Psuedo Code present in the LinkedListIntro code
+                - Performed Leetcode Questions on this Algorithm
+        
+        - Swapping Needs Pointers
+    
+    2. Recursion
