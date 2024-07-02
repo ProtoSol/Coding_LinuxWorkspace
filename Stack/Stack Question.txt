@@ -1,0 +1,7 @@
+Stack
+
+1. String Questions
+2. Previous Great Element
+3. Next Greater Element
+4. Previous Smaller Element
+5. Next Smaller Element
