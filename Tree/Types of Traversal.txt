@@ -1,0 +1,7 @@
+Types of Traversal
+
+     - DFT (Depth First Traversal)
+
+        - Pre Order (PLR -> Parent then Left then Right)
+        - In Order (LPR -> Left then Parent then Right)
+        - Post Order (RPL -> Right then Parent then Left)
