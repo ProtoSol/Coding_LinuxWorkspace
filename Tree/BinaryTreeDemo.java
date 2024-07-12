@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 class BinaryTreeNode<T>{
@@ -83,11 +85,11 @@ class BinaryTreeOperations{
             return;
         }
         // Move to left
-        preOrderPrint(parent.left);
+        inOrderPrint(parent.left);
         // Print Parent
         System.out.println(parent.data + " ");
         // Move to Right
-        preOrderPrint(parent.right);
+        inOrderPrint(parent.right);
     }
 
     void postOrderPrint(BinaryTreeNode<Integer> parent){
@@ -96,11 +98,36 @@ class BinaryTreeOperations{
             return;
         }
         // Move to Left
-        preOrderPrint(parent.left);
+        postOrderPrint(parent.left);
         // Move to Right
-        preOrderPrint(parent.right);
+        postOrderPrint(parent.right);
         // Print Parent
         System.out.println(parent.data + " ");
+    }
+
+    void levelOrderPrint(BinaryTreeNode<Integer> parent){
+        // We maintain a Queue for Traversal that is similar to Stack Operation.
+        Queue<BinaryTreeNode<Integer>> queue = new LinkedList<>();
+        queue.add(parent);
+        int level = 0; // To print this level wise
+        while(!queue.isEmpty()){
+            int size = queue.size();
+                // We maintain the size of the queue 
+                // and make it inside a for loop for level wise printing
+            System.out.print("Level " + level + " : ");
+            for(int  i = 0; i < size; i++){
+                BinaryTreeNode<Integer> node = queue.poll();
+                System.out.print(node.data + " ");
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
+                if(node.right != null){
+                    queue.offer(node.right);
+                }
+                level++;
+            }
+            System.out.println();
+        } 
     }
 }
 public class BinaryTreeDemo {
@@ -109,6 +136,6 @@ public class BinaryTreeDemo {
         BinaryTreeNode<Integer> root = opr.add();
         opr.print(root);
         System.out.println();
-        opr.preOrderPrint(root);
+        opr.levelOrderPrint(root);
     }
 }
