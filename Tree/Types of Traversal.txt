@@ -1,7 +1,14 @@
 Types of Traversal
 
-     - DFT (Depth First Traversal)
+   - DFT (Depth First Traversal)
 
-        - Pre Order (PLR -> Parent then Left then Right)
-        - In Order (LPR -> Left then Parent then Right)
-        - Post Order (RPL -> Right then Parent then Left)
+      - Pre Order (PLR -> Parent then Left then Right)
+      - In Order (LPR -> Left then Parent then Right)
+      - Post Order (RPL -> Right then Parent then Left)
+
+   - BFT (Breath First Traversal)
+
+      - Level Order Traversal
+      - Vertical Order Traversal
+
+- DFT tends to use Stack while BFT tends to use a queue / map.
