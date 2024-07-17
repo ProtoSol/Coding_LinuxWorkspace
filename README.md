@@ -20,6 +20,9 @@
     - Will Revise This Topic Later
 - [Linked List](Linked_List)
 - [OOPS](OOPS)
+- [Tree](Tree)
+- [Stack](Stack)
+- [Queue](Queue)
 
 > Both Java and Python Codes are merged together.
 
