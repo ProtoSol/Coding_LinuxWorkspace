@@ -23,6 +23,7 @@
 - [Tree](Tree)
 - [Stack](Stack)
 - [Queue](Queue)
+- [Graph](Graph)
 
 > Both Java and Python Codes are merged together.
 
