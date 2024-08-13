@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // This type of sorting is also called as Khan's Algorithm
+// This algorithm can be used to detect cycles in a directed graph as,
+    // if the topo array doesnt has the same size as the input array then cycle is present
+    // otherwise no cycle is present.
 public class TopologicalSortBFS {
     public static void main(String[] args) {
         // Create a graph with 6 vertices
