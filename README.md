@@ -24,6 +24,7 @@
 - [Stack](Stack)
 - [Queue](Queue)
 - [Graph](Graph)
+- [Dyanmic Programming](Dynamic_Programming)
 
 > Both Java and Python Codes are merged together.
 
@@ -44,6 +45,9 @@
 ## Python
 
 - [Introduction](HelloPython.py)
+- [Time Series](Time_Series)
+- [Web Scraping](Web_Srapping)
+- [Statistical Methods](Statistical_Methods)
 
 ## Jupyter Notebooks
 
