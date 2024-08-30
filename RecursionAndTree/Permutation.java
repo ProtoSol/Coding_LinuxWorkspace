@@ -40,4 +40,4 @@ class Solution {
             smallList.remove(smallList.size() - 1);
         }
     }
- }
+}
