@@ -3,29 +3,25 @@ import java.util.LinkedList;
 
 class MyStackUsingQueue {
     Queue<Integer> q1;
-    Queue<Integer> q2;
     
-    // Initialize both queues using LinkedList
+    // Initialize q1 using LinkedList
     public MyStackUsingQueue() {
         q1 = new LinkedList<>();
-        q2 = new LinkedList<>();
     }
 
-    // Add element to q2, then move all from q1 to q2, then swap q1 and q2
+    // Add element to q1 at the end
     public void push(int data) {
-        q2.offer(data);
-        while (!q1.isEmpty()) {
-            q2.offer(q1.poll());
-        }
-        Queue<Integer> temp = q1;
-        q1 = q2;
-        q2 = temp;
+        q1.offer(data);
     }
 
     // Remove and return the top element from q1
     public int pop() {
         if (q1.isEmpty()) {
             throw new RuntimeException("Stack is Empty");
+        }
+        int size = q1.size();
+        for (int i = 0; i < size - 1; i++) {
+            q1.offer(q1.poll());
         }
         return q1.poll();
     }
@@ -35,7 +31,13 @@ class MyStackUsingQueue {
         if (q1.isEmpty()) {
             throw new RuntimeException("Stack is Empty");
         }
-        return q1.peek();
+        int size = q1.size();
+        for (int i = 0; i < size - 1; i++) {
+            q1.offer(q1.poll());
+        }
+        int top = q1.poll();
+        q1.offer(top);
+        return top;
     }
 
     // Check if the stack is empty
