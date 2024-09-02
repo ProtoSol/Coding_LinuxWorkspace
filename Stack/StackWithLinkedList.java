@@ -1,6 +1,4 @@
 package Stack;
-
-
 class Node<T>{
     T data;
     Node<T> next;
@@ -34,13 +32,10 @@ class StackL<T>{
 
     void peek(){
         if(top == null){
+            System.out.println("Stack is Empty ...");
             return;
         }
-        Node<T> temp = top;
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
-        }
+        System.out.println(top.data);
     }
 
     T pop(){
@@ -52,6 +47,20 @@ class StackL<T>{
         size --;
         return data;
     }
+
+    void print(){
+        if(top == null){
+            System.out.println("Stack is Empty ...");
+            return;
+        }
+        Node<T> temp = top;
+        while(temp.next != null){
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.print(temp.data);
+        System.out.println();
+    }
 }
 
 public class StackWithLinkedList {
@@ -61,6 +70,7 @@ public class StackWithLinkedList {
         stack.push(new Node<Integer>(200));
         stack.push(new Node<Integer>(300));
         stack.peek();
+        stack.print();
         System.out.println(".................");
         System.out.println("Removed : " + stack.pop());
         System.out.println(".................");
