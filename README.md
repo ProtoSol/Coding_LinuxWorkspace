@@ -16,7 +16,7 @@
 
 <br>
 
-> Collection of the code files, I create on my Linux Workspace
+> Collection of the code files, I created on my Linux Workspace
 
 ## 📂 Repository Structure
 
@@ -26,6 +26,7 @@
     ├── BackTracking
     ├── Binary_Search_Tree
     ├── Certificates
+    ├── Conda_env 
     ├── DBMS
     ├── Data_PreProcessing
     ├── Dynamic_Programming
@@ -99,6 +100,9 @@
 - [Statistical Methods](Statistical_Methods)
 - [Data Pre-Processing](Data_Preprocessing)
 - [Data Transformation](Data_Transformation)
+- [Data Encoding and Discretization](Data_Encoding_and_Discretization)
+- [Machine Learning](Machine_Learning)
+- [Conda Environment List](Conda_Env)
 
 ## Jupyter Notebooks
 
