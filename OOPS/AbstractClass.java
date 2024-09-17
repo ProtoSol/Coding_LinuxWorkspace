@@ -44,6 +44,5 @@ public class AbstractClass {
     public static void main(String[] args) {
         // FullTimeEmployee ram = new FullTimeEmployee();
         // PartTimeEmployee shyam = new PartTimeEmployee();
-        System.out.println("Testing");
     }
 }
